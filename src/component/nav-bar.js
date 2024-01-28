@@ -57,11 +57,11 @@ class NavBar extends HTMLElement {
                 background-color: #e8e6e6;
                 padding: 10px;
               }
-  
+
               button {
                 width: 80px;
                 cursor: pointer;
-                background-color: #a61b19;
+                background-color: Red;
                 color: white;
                 border-radius: 4px;
                 margin-left: 4px;
