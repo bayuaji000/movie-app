@@ -37,7 +37,7 @@ class NavBar extends HTMLElement {
                 justify-items: center;
                 float: right;
                 padding: 10px;
-                margin-right: 20px
+                margin-right: 8px
               }
               
               .navbar h1 {
@@ -56,8 +56,13 @@ class NavBar extends HTMLElement {
                 border: 2px solid #ccc;
                 border-radius: 4px;
                 font-size: 16px;
-                background-color: #e8e6e6;
+                background-color: #303030;
                 padding: 10px;
+                color: white;
+              }
+
+              input::placeholder {
+                color: white;
               }
 
               button {
@@ -73,11 +78,26 @@ class NavBar extends HTMLElement {
                 background: #87110f;             
               }
 
-              @media screen and (max-width: 400px) {
+              @media screen and (max-width: 500px) {
                 input[type=search] {
                   width: 100%;
                 }
+
+                .navbar {
+                  display: flex;
+                  flex-direction: column;
+                  font-size: 10px;
+                }
+
+                .navbar h1 {
+                  margin-left: 10px;
+                }
               }
+
+              @media screen and (max-width: 350px) {
+                input[type=search] {
+                  width: 100%;
+                }
           </style>
   
           <div class="navbar">

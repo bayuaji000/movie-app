@@ -47,13 +47,14 @@ footer {
 }
 
 @media screen and (max-width: 300px) {
-  main {
+  .layout {
     flex-direction: column;
   }
 
-  app-bar {
+  .navbar {
     font-size: 12px;
     justify-content: center;
+    align-items: center;
     padding: 20px;
   }
 
