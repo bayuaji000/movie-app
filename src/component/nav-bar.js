@@ -34,8 +34,10 @@ class NavBar extends HTMLElement {
   
               .search-container {
                 display: flex;
+                justify-items: center;
                 float: right;
                 padding: 10px;
+                margin-right: 20px
               }
               
               .navbar h1 {
@@ -69,6 +71,12 @@ class NavBar extends HTMLElement {
   
               button:hover {
                 background: #87110f;             
+              }
+
+              @media screen and (max-width: 400px) {
+                input[type=search] {
+                  width: 100%;
+                }
               }
           </style>
   
