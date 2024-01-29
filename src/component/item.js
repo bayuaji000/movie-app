@@ -49,7 +49,7 @@ class item extends HTMLElement {
               <div class="daftar" data-id="${this._movie.id}">
                 <div id="${this._movie.name}">
                   <img src="https://image.tmdb.org/t/p/w500/${this._movie.poster_path}" class="card-img card-img-top" alt="${this._movie.name}" />
-                  <h2>${this._movie.title}</h2>
+                  <h3>${this._movie.title}</h3>
                   <h4>⭐ ${this._movie.vote_average}</h4>
                   <h4>Date: ${this._movie.release_date}</h4>
                 </div>
