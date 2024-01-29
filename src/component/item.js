@@ -41,6 +41,7 @@ class item extends HTMLElement {
                     width: 40%;
                     display: flex;
                     margin: 10px 4px;
+                    font-size: 10px;
                   }
                 }
             
