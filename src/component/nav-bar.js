@@ -40,7 +40,7 @@ class NavBar extends HTMLElement {
               
               .navbar h1 {
                 float: left;
-                margin-left: 8px;
+                margin-left: 20px;
               }
 
               .Movies {
