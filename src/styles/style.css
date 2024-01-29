@@ -46,7 +46,7 @@ footer {
   font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   main {
     flex-direction: column;
   }

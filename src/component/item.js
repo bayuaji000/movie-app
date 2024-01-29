@@ -20,7 +20,7 @@ class item extends HTMLElement {
                 :host{
                   display: flex;
                   width: 250px;
-                  margin: 18px 4px;
+                  margin: 10px 4px;
                   text-align: center;
                   padding: 10px;
                   background: #292929;
@@ -38,7 +38,9 @@ class item extends HTMLElement {
   
                 @media screen and (max-width: 550px) {
                   :host {
-                    width: 100%;
+                    width: 40%;
+                    display: flex;
+                    margin: 10px 4px;
                   }
                 }
             
