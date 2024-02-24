@@ -56,13 +56,13 @@ class NavBar extends HTMLElement {
                 border: 2px solid #ccc;
                 border-radius: 4px;
                 font-size: 16px;
-                background-color: #303030;
+                background-color: #0f0f0f;
                 padding: 10px;
                 color: white;
               }
 
               input::placeholder {
-                color: white;
+                color: #919191;
               }
 
               button {
