@@ -53,8 +53,8 @@ class NavBar extends HTMLElement {
                 width: 70%;
                 height: auto;
                 box-sizing: border-box;
-                border: 2px solid #ccc;
-                border-radius: 4px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
                 font-size: 16px;
                 background-color: #0f0f0f;
                 padding: 10px;
@@ -62,7 +62,7 @@ class NavBar extends HTMLElement {
               }
 
               input::placeholder {
-                color: #919191;
+                color: #707070;
               }
 
               button {
@@ -70,7 +70,7 @@ class NavBar extends HTMLElement {
                 cursor: pointer;
                 background-color: Red;
                 color: white;
-                border-radius: 4px;
+                border-radius: 6px;
                 margin-left: 4px;
               }
   
